@@ -1,0 +1,75 @@
+.logo {
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+nav a {
+    color: black;
+    font-size: 25px;
+    margin: 50px;
+}
+#tech {
+    color: black;
+    margin: 200px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.products {
+    background: no-repeat center;
+    width: 1440px;
+    height: 255px;
+    border: 1px solid gray;
+    background-image: url('./img/preview.jpg');
+    background-size: 90%;
+    padding: 0px 40px 0px 40px;
+    color: white;
+    text-align: center;
+}
+.products h1 {
+    margin: 80px 0 0 0;
+}
+
+main{
+    width: 1520px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.usp {
+    display: inline-block;
+    text-align: center; 
+        width: 1520px;
+}
+.usp h1 {
+    font-size: 30px;
+    width: 1520px;
+}
+.usp p  {
+    font-size: 20px;
+}
+.phones {
+    width: 315px;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+}
+footer {
+    width: 1520px;
+    height: 200px;
+    background-image: url('./img/footer.png');
+    margin: 60px 0px;
+    text-align: center;
+    color: white;
+
+}
+footer img {
+    margin: 50px 0 0 0 ;
+}
+footer a {
+    color: white;
+    font-size: 15px;
+    margin: auto;
+}
